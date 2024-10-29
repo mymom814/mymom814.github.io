@@ -1,0 +1,32 @@
+@font-face {
+    font-family: MonaspaceArgon;
+    src: url(MonaspaceArgon-WideLight.otf);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom right, cyan, lime);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: MonaspaceArgon;
+    text-align: center;
+    align-content: center;
+}
+
+input[type=submit] {
+    font-family: MonaspaceArgon;
+    background-color: black;
+    border-color: color(0, 0, 0, 0);
+    color: white;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
